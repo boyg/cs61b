@@ -39,8 +39,9 @@ public class IntList {
         L = new IntList(7, L);
         L = new IntList(15, L);
         
-        System.out.println("Size of list (using recursion):" + L.size());
-        System.out.println("Size of list (using iteration):" + L.iterativeSize());
-        System.out.println("1st item in list (with 0-indexing):" + L.get(1));
+        System.out.println("Size of list (using recursion): " + L.size());
+        System.out.println("Size of list (using iteration): " + L.iterativeSize());
+        System.out.println("1st item in list (with 0-indexing): " + L.get(1));
     }
 }
+
