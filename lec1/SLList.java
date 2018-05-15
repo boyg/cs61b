@@ -15,7 +15,7 @@ public class SLList {
     }
 
     public void addFirst(int x) {
-        first = new IntNode(x, first)
+        first = new IntNode(x, first);
     }
 
     public int getFirst() {
@@ -32,14 +32,22 @@ public class SLList {
     }
 
     public int size(IntNode p) {
-        if (first == null) {
+        if (p == null) {
             return 0;
-        } else {
-            return 1 + size(p.next);
         }
+        return 1 + size(p.next);
     }
 
     public int size() {
         return size(first);
+    }
+
+    public static void main(String[] args) {
+        SLList l = new SLList(5);
+        l.addLast(10);
+        l.addLast(15);
+        l.addFirst(0);
+        l.getFirst();
+        l.size();
     }
 }
