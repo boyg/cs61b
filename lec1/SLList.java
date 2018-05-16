@@ -31,11 +31,11 @@ public class SLList {
     }
 
     public void addLast(int x) {
-        IntNode p = first;
-
-        if (p == null) {
-            p = new IntNode(x, null);
+        if (first == null) {
+            first = new IntNode(x, null);
         } else {
+            IntNode p = first;
+            
             while (p.next != null) {
                 p = p.next;
             }
@@ -53,5 +53,7 @@ public class SLList {
         l.addFirst(3);
         SLList l2 = new SLList();
         l2.addLast(6);
+        System.out.println("l: " + l.getFirst());
+        System.out.println("l2: " + l2.getFirst());
     }
 }
