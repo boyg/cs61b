@@ -14,7 +14,17 @@ public class LinkedListDeque<DataType> {
     private int size;
 
     public LinkedListDeque() {
-        sentinel = new IntNode(null, -1, null);
+        sentinel = new IntNode(this, -1, this);
         size = 0;
+    }
+
+    public void addFirst(T item) {
+        if (sentinel.next == this) {
+            sentinel.next = new IntNode(sentinel, item, sentinel);
+            sentinel.prev = sentinel.next;
+        } else {
+            IntNode p = sentinel.next;
+            // continue here
+        }
     }
 }
