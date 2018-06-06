@@ -19,7 +19,7 @@ public class LinkedListDeque<T> {
     }
 
     public boolean isEmpty() {
-        return (sentinel.next == this);
+        return (size == 0);
     }
 
     public void addFirst(T item) {
@@ -61,24 +61,46 @@ public class LinkedListDeque<T> {
     public T removeFirst() {
         if (isEmpty()) {
             return null;
-        } else {
-            // TODO: finish removeFirst
         }
+        T frontItem = sentinel.next.item;
+        if (size == 1) {
+            sentinel.prev = sentinel;
+            sentinel.next = sent;
+        } else {
+            Node p = sentinel.next.next;
+            sentinel.next = p;
+            p.prev = sentinel;
+        }
+        return frontItem;
     }
 
     public T removeLast() {
         if (isEmpty()) {
             return null;
-        } else {
-            // TODO: finish removeLast
         }
+        T backItem = sentinel.prev.item;
+        if (size == 1) {
+            sentinel.prev = sentinel;
+            sentinel.next = sent;
+        } else {
+            Node p = sentinel.prev.prev;
+            sentinel.prev = p;
+            p.next = sentinel;
+        }
+        return frontItem;
     }
 
     public T get(int index) {
         if (index < 0 || index > size - 1) {
             return null
         } else {
-            // TODO: finish get
+            int i = 0;
+            Node p = sentinel.next;
+            while (i < index) {
+                p = p.next;
+                i++;
+            }
+            return p.item;
         }
     }
 
