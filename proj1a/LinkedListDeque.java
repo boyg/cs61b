@@ -1,5 +1,5 @@
 public class LinkedListDeque<T> {
-    public static class Node {
+    public class Node {
         public Node prev;
         public T item;
         public Node next;
@@ -14,7 +14,7 @@ public class LinkedListDeque<T> {
     private int size;
 
     public LinkedListDeque() {
-        sentinel = new Node(this, 0, this);
+        sentinel = new Node(sentinel, null, sentinel);
         size = 0;
     }
 
