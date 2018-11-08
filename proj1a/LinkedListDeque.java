@@ -106,14 +106,18 @@ public class LinkedListDeque<T> {
         }
     }
 
-//    public T getRecursive(int index) {
-//        // TODO: finish getRecursive
-//        if (index < 0 || index > size - 1) {
-//            return null;
-//        } else if (index == 0) {
-//            return sentinel.next.item;
-//        } else if {
-//            // continue here
-//        }
-//    }
-}
+    private T getRecursive(Node p, int index) {
+        if (index == 0) {
+            return p.item;
+        } else {
+            return getRecursive(p.next, index - 1);
+        }
+    }
+
+    public T getRecursive(int index) {
+        if (isEmpty() || index < 0 || index > size - 1) {
+            return null;
+        } else {
+            return getRecursive(sentinel.next, index);
+        }
+    }
