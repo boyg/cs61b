@@ -51,10 +51,14 @@ public class LinkedListDeque<T> {
     }
 
     public void printDeque() {
-        Node p = sentinel;
-        while (p.next.item != null) {
-            p = p.next;
-            System.out.print(p.item + " ");
+        if (isEmpty()) {
+            return;
+        } else {
+            Node p = sentinel;
+            while (p.next.item != null) {
+                p = p.next;
+                System.out.print(p.item + " ");
+            }
         }
     }
 
@@ -121,3 +125,4 @@ public class LinkedListDeque<T> {
             return getRecursive(sentinel.next, index);
         }
     }
+}
