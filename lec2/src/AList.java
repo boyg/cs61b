@@ -38,7 +38,7 @@ public class AList {
         if (i < 0 || i > size - 1) {
             return NULL_ITEM;
         } else {
-            return items[i - 1];
+            return items[i];
         }        
     }
 
