@@ -7,8 +7,8 @@ public class ArrayDeque<T> {
     public ArrayDeque() {
         items = (T []) new Object[8];
         size = 0;
-        nextFirst = 3;
-        nextLast = 4;
+        nextFirst = 0;
+        nextLast = 1;
     }
 
     public boolean isEmpty() {
@@ -19,55 +19,45 @@ public class ArrayDeque<T> {
         return size;
     }
 
-    public void addFirst(T item) {
-        if (nextFirst >= 0) {
-            items[nextFirst] = item;
-            nextFirst--;
-            size++;
-        } else {
-            System.out.println("Cannot add item! Front of deque is full.");
-        }
-    }
-
-    public void addLast(T item) {
-        if (nextLast <= 7) {
-            items[nextLast] = item;
-            nextLast++;
-            size++;
-        } else {
-            System.out.println("Cannot add item! Back of deque is full.");
-        }
-    }
-
-    public T removeFirst() {
-        if (nextFirst <= 3) {
-            T item = items[nextFirst - 1];
-            items[nextFirst - 1] = null;
-            nextFirst++;
-            size--;
-            return item;
-        } else {
-            System.out.println("Cannot remove item! Front of deque is empty.");
-            return null;
-        }
-    }
-
-    public T removeLast() {
-        if (nextLast >= 4) {
-            T item = items[nextLast + 1];
-            items[nextLast + 1] = null;
-            nextLast--;
-            size--;
-            return item;
-        } else {
-            System.out.println("Cannot remove item! Back of deque is empty.");
-            return null;
-        }
-    }
-
     public void printDeque() {
         for (int i = 0; i < items.length; i++) {
             System.out.print(items[i] + " ");
         }
+    }
+
+    private void resize(int capacity) {
+        // TODO: Implement resize
+        return;
+    }
+
+    private float usageRatio() {
+        return size / items.length;
+    }
+
+    public void addFirst(T item) {
+        if (size == items.length) {
+            resize(items.length * 2);
+        } else if (usageRatio() < 0.25 ) {
+            resize(items.length / 2);
+        }
+        if (nextFirst == -1) {
+            nextFirst = items.length - 1;
+        }
+        items[nextFirst] = item;
+        nextFirst--;
+        size++;
+    }
+
+    public static void main(String[] args) {
+        ArrayDeque<Character> ad = new ArrayDeque<Character>();
+        ad.isEmpty();
+        ad.size();
+        ad.addFirst('a');
+        ad.isEmpty();
+        ad.size();
+        ad.addFirst('b');
+        ad.addFirst('c');
+        ad.addFirst('d');
+        ad.printDeque();
     }
 }
