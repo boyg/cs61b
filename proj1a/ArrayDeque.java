@@ -48,6 +48,20 @@ public class ArrayDeque<T> {
         size++;
     }
 
+    public void addLast(T item) {
+        if (size == items.length) {
+            resize(items.length * 2);
+        } else if (usageRatio() < 0.25 ) {
+            resize(items.length / 2);
+        }
+        if (nextLast == items.length) {
+            nextLast = 0;
+        }
+        items[nextLast] = item;
+        nextLast++;
+        size++;
+    }
+
     public static void main(String[] args) {
         ArrayDeque<Character> ad = new ArrayDeque<Character>();
         ad.isEmpty();
