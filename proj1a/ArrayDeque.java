@@ -19,6 +19,7 @@ public class ArrayDeque<T> {
         return size;
     }
 
+    // TODO: Fix printDeque()
     public void printDeque() {
         for (int i = 0; i < items.length; i++) {
             System.out.print(items[i] + " ");
@@ -26,8 +27,17 @@ public class ArrayDeque<T> {
     }
 
     private void resize(int capacity) {
-        // TODO: Implement resize
-        return;
+        T[] a = (T []) new Object[capacity];
+        int i = nextFirst + 1;
+        int j = 0;
+        while (j < size) {
+            a[j] = items[i % items.length];
+            i++;
+            j++;
+        }
+        nextFirst = a.length - 1;
+        nextLast = size;
+        items = a;
     }
 
     private float usageRatio() {
@@ -72,15 +82,23 @@ public class ArrayDeque<T> {
 
     public static void main(String[] args) {
         ArrayDeque<Character> ad = new ArrayDeque<Character>();
-        ad.setNextLast(5);
-        ad.setNextFirst(4);
-        ad.addLast('a');
-        ad.addFirst('b');
-        ad.addLast('c');
-        ad.addFirst('d');
+        ad.addFirst('a');
+        ad.addLast('b');
+        ad.addFirst('c');
+        ad.addLast('d');
         ad.addFirst('e');
         ad.addLast('f');
-        ad.addLast('g');
+        ad.addFirst('g');
+        ad.addLast('h');
+        ad.addFirst('i');
+        ad.addLast('j');
+        ad.addFirst('k');
+        ad.addFirst('l');
+        ad.addFirst('m');
+        ad.addFirst('n');
+        ad.addLast('o');
+        ad.addLast('p');
+        ad.addLast('q');
         ad.printDeque();
     }
 }
