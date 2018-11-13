@@ -62,16 +62,25 @@ public class ArrayDeque<T> {
         size++;
     }
 
+    /** For debugging */
+    private void setNextLast(int num) {
+        nextLast = num;
+    }
+    private void setNextFirst(int num) {
+        nextFirst = num;
+    }
+
     public static void main(String[] args) {
         ArrayDeque<Character> ad = new ArrayDeque<Character>();
-        ad.isEmpty();
-        ad.size();
-        ad.addFirst('a');
-        ad.isEmpty();
-        ad.size();
+        ad.setNextLast(5);
+        ad.setNextFirst(4);
+        ad.addLast('a');
         ad.addFirst('b');
-        ad.addFirst('c');
+        ad.addLast('c');
         ad.addFirst('d');
+        ad.addFirst('e');
+        ad.addLast('f');
+        ad.addLast('g');
         ad.printDeque();
     }
 }
