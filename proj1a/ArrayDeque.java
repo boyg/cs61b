@@ -41,15 +41,20 @@ public class ArrayDeque<T> {
     }
 
     private float usageRatio() {
-        return size / items.length;
+        System.out.println(size / items.length);
+        return (float) size / items.length;
+    }
+
+    private void checkSize() {
+        if (size == items.length) {
+            resize(items.length * 2);
+        } else if (items.length > 8 && usageRatio() < 0.25 ) {
+            resize(items.length / 2);
+        }
     }
 
     public void addFirst(T item) {
-        if (size == items.length) {
-            resize(items.length * 2);
-        } else if (usageRatio() < 0.25 ) {
-            resize(items.length / 2);
-        }
+        checkSize();
         if (nextFirst == -1) {
             nextFirst = items.length - 1;
         }
@@ -59,11 +64,7 @@ public class ArrayDeque<T> {
     }
 
     public void addLast(T item) {
-        if (size == items.length) {
-            resize(items.length * 2);
-        } else if (usageRatio() < 0.25 ) {
-            resize(items.length / 2);
-        }
+        checkSize();
         if (nextLast == items.length) {
             nextLast = 0;
         }
