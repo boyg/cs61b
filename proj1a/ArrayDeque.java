@@ -15,7 +15,7 @@ public class ArrayDeque<T> {
         items = (T []) new Object[8];
         size = 0;
         nextFirst = 0;
-        nextLast = 1;
+        nextLast = 0;
     }
 
     /** Returns true if deque is empty, false otherwise. */
@@ -156,5 +156,14 @@ public class ArrayDeque<T> {
         size--;
         checkForResize();
         return item;
+    }
+
+    public static void main(String[] args) {
+        ArrayDeque<Integer> ad = new ArrayDeque<Integer>();
+        for(int i = 0; i < 8; i++) {
+            ad.addLast(i);
+        }
+        ad.printDeque();
+        System.out.println(ad.get(0));
     }
 }
