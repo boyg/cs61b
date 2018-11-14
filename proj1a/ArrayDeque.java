@@ -88,7 +88,7 @@ public class ArrayDeque<T> {
 
     /** A utility method for checking whether the items
      * array needs to be sized up or down. */
-    private void checkSize() {
+    private void checkForResize() {
         if (size == items.length) {
             resize(items.length * 2);
         } else if (items.length > 8 && getUsageRatio() < 0.25) {
@@ -101,13 +101,13 @@ public class ArrayDeque<T> {
      *  the deque.
      */
     public void addFirst(T item) {
-        checkSize();
+        checkForResize();
+        items[nextFirst] = item;
+        size++;
+        nextFirst--;
         if (nextFirst == -1) {
             nextFirst = items.length - 1;
         }
-        items[nextFirst] = item;
-        nextFirst--;
-        size++;
     }
 
     /** Adds an item of type T to the front of the deque.
@@ -115,13 +115,13 @@ public class ArrayDeque<T> {
      *  the deque.
      */
     public void addLast(T item) {
-        checkSize();
+        checkForResize();
+        items[nextLast] = item;
+        size++;
+        nextLast++;
         if (nextLast == items.length) {
             nextLast = 0;
         }
-        items[nextLast] = item;
-        nextLast++;
-        size++;
     }
 
     /** Removes and returns the item at the front of the
@@ -137,7 +137,7 @@ public class ArrayDeque<T> {
         T item = items[nextFirst];
         items[nextFirst] = null;
         size--;
-        checkSize();
+        checkForResize();
         return item;
     }
 
@@ -154,7 +154,7 @@ public class ArrayDeque<T> {
         T item = items[nextLast];
         items[nextLast] = null;
         size--;
-        checkSize();
+        checkForResize();
         return item;
     }
 }
