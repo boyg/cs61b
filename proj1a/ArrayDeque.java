@@ -1,9 +1,16 @@
+/** A double-ended queue implemented using an array.
+ * @author Steve Farra */
 public class ArrayDeque<T> {
+    /** Array holding the data. */
     private T[] items;
+    /** Number of items in the deque. */
     private int size;
+    /** Index of the next item to be added to the front of the queue. */
     private int nextFirst;
+    /** Index of the next item to be added to the back of the queue. */
     private int nextLast;
 
+    /** Instantiates the fields for an ArrayDeque. */
     public ArrayDeque() {
         items = (T []) new Object[8];
         size = 0;
@@ -11,14 +18,19 @@ public class ArrayDeque<T> {
         nextLast = 1;
     }
 
+    /** Returns true if deque is empty, false otherwise. */
     public boolean isEmpty() {
         return (size == 0);
     }
 
+    /** Returns the number of items in the deque. */
     public int size() {
         return size;
     }
 
+    /** Prints the items in the deque from first to
+     * last, separated by a space.
+     */
     public void printDeque() {
         if (isEmpty()) {
             return;
@@ -33,6 +45,11 @@ public class ArrayDeque<T> {
         System.out.println();
     }
 
+    /** Retrieves an item from the deque.
+     *  @param index the index of the item to be returned.
+     *  0 is the first item, 1 is the second, and so forth.
+     *  @return the item at the specified index.
+     */
     public T get(int index) {
         if (isEmpty() || index > size - 1) {
             return null;
@@ -42,6 +59,10 @@ public class ArrayDeque<T> {
 
     }
 
+    /** A utility method for changing the size of the items
+     *  array.
+     *  @param capacity the size of the new array.
+     */
     private void resize(int capacity) {
         T[] a = (T []) new Object[capacity];
         int i = nextFirst + 1;
@@ -56,18 +77,29 @@ public class ArrayDeque<T> {
         items = a;
     }
 
+    /** A utility method for determining how filled the
+     *  items array is.
+     *  @return the ratio of items in the array to the array
+     *  size.
+     */
     private float getUsageRatio() {
         return (float) size / items.length;
     }
 
+    /** A utility method for checking whether the items
+     * array needs to be sized up or down. */
     private void checkSize() {
         if (size == items.length) {
             resize(items.length * 2);
-        } else if (items.length > 8 && getUsageRatio() < 0.25 ) {
+        } else if (items.length > 8 && getUsageRatio() < 0.25) {
             resize(items.length / 2);
         }
     }
 
+    /** Adds an item of type T to the front of the deque.
+     *  @param item the item to be added to the front of
+     *  the deque.
+     */
     public void addFirst(T item) {
         checkSize();
         if (nextFirst == -1) {
@@ -78,6 +110,10 @@ public class ArrayDeque<T> {
         size++;
     }
 
+    /** Adds an item of type T to the front of the deque.
+     *  @param item the item to be added to the front of
+     *  the deque.
+     */
     public void addLast(T item) {
         checkSize();
         if (nextLast == items.length) {
@@ -88,6 +124,8 @@ public class ArrayDeque<T> {
         size++;
     }
 
+    /** Removes and returns the item at the front of the
+     * deque. If no such item exists, returns null. */
     public T removeFirst() {
         if (isEmpty()) {
             return null;
@@ -103,6 +141,8 @@ public class ArrayDeque<T> {
         return item;
     }
 
+    /** Removes and returns the item at the back of the
+     * deque. If no such item exists, returns null. */
     public T removeLast() {
         if (isEmpty()) {
             return null;
@@ -116,31 +156,5 @@ public class ArrayDeque<T> {
         size--;
         checkSize();
         return item;
-    }
-
-    public static void main(String[] args) {
-        ArrayDeque<Integer> ad = new ArrayDeque<Integer>();
-        ad.printDeque();
-        ad.get(4);
-        int i;
-        for (i = 50; i >= 0; i--) {
-            ad.addFirst(i);
-        }
-        ad.printDeque();
-        for (i = 51; i <= 100; i++) {
-            ad.addLast(i);
-        }
-        ad.printDeque();
-        for (i = 0; i <= 25; i++) {
-            ad.removeFirst();
-        }
-        ad.printDeque();
-        for (i = 26; i <= 100; i++) {
-            ad.removeLast();
-            if (i == 72) {
-                ad.printDeque();
-                System.out.println(ad.get(5));
-            }
-        }
     }
 }

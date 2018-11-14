@@ -1,0 +1,3 @@
+This file is included in order to use the course's autograder.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in porta orci. In placerat maximus tempor. Vivamus eu feugiat urna. Donec scelerisque iaculis mollis. Maecenas rutrum est vitae risus facilisis dictum. Donec hendrerit nibh eget felis aliquam, in maximus sem tristique. Sed nisi nisi, blandit non dolor id, tempus efficitur lacus.
