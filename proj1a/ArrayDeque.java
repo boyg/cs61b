@@ -82,24 +82,13 @@ public class ArrayDeque<T> {
     }
 
     public static void main(String[] args) {
-        ArrayDeque<Character> ad = new ArrayDeque<Character>();
-        ad.addFirst('a');
-        ad.addLast('b');
-        ad.addFirst('c');
-        ad.addLast('d');
-        ad.addFirst('e');
-        ad.addLast('f');
-        ad.addFirst('g');
-        ad.addLast('h');
-        ad.addFirst('i');
-        ad.addLast('j');
-        ad.addFirst('k');
-        ad.addFirst('l');
-        ad.addFirst('m');
-        ad.addFirst('n');
-        ad.addLast('o');
-        ad.addLast('p');
-        ad.addLast('q');
-        ad.printDeque();
+        ArrayDeque<Integer> ad = new ArrayDeque<Integer>();
+        int i;
+        for (i = 50; i >= 0; i--) {
+            ad.addFirst(i);
+        }
+        for (i = 51; i <= 100; i++) {
+            ad.addLast(i);
+        }
     }
 }
