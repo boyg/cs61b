@@ -9,13 +9,15 @@ public class ArrayDeque<T> {
     private int nextFirst;
     /** Index of the next item to be added to the back of the queue. */
     private int nextLast;
+    /** Marker to keep track of the start of the list */
+    private int first;
 
     /** Instantiates the fields for an ArrayDeque. */
     public ArrayDeque() {
         items = (T []) new Object[8];
         size = 0;
         nextFirst = 0;
-        nextLast = 0;
+        nextLast = 1;
     }
 
     /** Returns true if deque is empty, false otherwise. */
@@ -74,6 +76,7 @@ public class ArrayDeque<T> {
         }
         nextFirst = a.length - 1;
         nextLast = size;
+        first = 0;
         items = a;
     }
 
@@ -103,6 +106,7 @@ public class ArrayDeque<T> {
     public void addFirst(T item) {
         checkForResize();
         items[nextFirst] = item;
+        first = nextFirst;
         size++;
         nextFirst--;
         if (nextFirst == -1) {
@@ -117,6 +121,9 @@ public class ArrayDeque<T> {
     public void addLast(T item) {
         checkForResize();
         items[nextLast] = item;
+        if (isEmpty()) {
+            first = nextLast;
+        }
         size++;
         nextLast++;
         if (nextLast == items.length) {
