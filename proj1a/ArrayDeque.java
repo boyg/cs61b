@@ -9,7 +9,7 @@ public class ArrayDeque<T> {
     private int nextFirst;
     /** Index of the next item to be added to the back of the queue. */
     private int nextLast;
-    /** Marker to keep track of the start of the list */
+    /** Index of the first item in the queue. */
     private int first;
 
     /** Instantiates the fields for an ArrayDeque. */
@@ -56,7 +56,7 @@ public class ArrayDeque<T> {
         if (isEmpty() || index > size - 1) {
             return null;
         } else {
-            return items[(nextFirst + index) % (items.length - 1)];
+            return items[(first + index) % items.length];
         }
 
     }
