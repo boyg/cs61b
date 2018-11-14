@@ -40,15 +40,14 @@ public class ArrayDeque<T> {
         items = a;
     }
 
-    private float usageRatio() {
-        System.out.println(size / items.length);
+    private float getUsageRatio() {
         return (float) size / items.length;
     }
 
     private void checkSize() {
         if (size == items.length) {
             resize(items.length * 2);
-        } else if (items.length > 8 && usageRatio() < 0.25 ) {
+        } else if (items.length > 8 && getUsageRatio() < 0.25 ) {
             resize(items.length / 2);
         }
     }
@@ -73,12 +72,34 @@ public class ArrayDeque<T> {
         size++;
     }
 
-    /** For debugging */
-    private void setNextLast(int num) {
-        nextLast = num;
+    public T removeFirst() {
+        if (isEmpty()) {
+            return null;
+        }
+        nextFirst++;
+        if (nextFirst == items.length) {
+            nextFirst = 0;
+        }
+        T item = items[nextFirst];
+        items[nextFirst] = null;
+        size--;
+        checkSize();
+        return item;
     }
-    private void setNextFirst(int num) {
-        nextFirst = num;
+
+    public T removeLast() {
+        if (isEmpty()) {
+            return null;
+        }
+        nextLast--;
+        if (nextLast == -1) {
+            nextLast = items.length - 1;
+        }
+        T item = items[nextLast];
+        items[nextLast] = null;
+        size--;
+        checkSize();
+        return item;
     }
 
     public static void main(String[] args) {
@@ -89,6 +110,12 @@ public class ArrayDeque<T> {
         }
         for (i = 51; i <= 100; i++) {
             ad.addLast(i);
+        }
+        for (i = 0; i <= 25; i++) {
+            ad.removeFirst();
+        }
+        for (i = 26; i <= 100; i++) {
+            ad.removeLast();
         }
     }
 }
