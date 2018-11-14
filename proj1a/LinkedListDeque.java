@@ -53,13 +53,13 @@ public class LinkedListDeque<T> {
     public void printDeque() {
         if (isEmpty()) {
             return;
-        } else {
-            Node p = sentinel;
-            while (p.next.item != null) {
-                p = p.next;
-                System.out.print(p.item + " ");
-            }
         }
+        Node p = sentinel;
+        while (p.next.item != null) {
+            p = p.next;
+            System.out.print(p.item + " ");
+        }
+        System.out.println();
     }
 
     public T removeFirst() {

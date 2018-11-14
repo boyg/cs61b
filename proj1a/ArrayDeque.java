@@ -19,11 +19,27 @@ public class ArrayDeque<T> {
         return size;
     }
 
-    // TODO: Fix printDeque()
     public void printDeque() {
-        for (int i = 0; i < items.length; i++) {
-            System.out.print(items[i] + " ");
+        if (isEmpty()) {
+            return;
         }
+        int i = nextFirst + 1;
+        int j = 0;
+        while (j < size) {
+            System.out.print(items[i % items.length] + " ");
+            i++;
+            j++;
+        }
+        System.out.println();
+    }
+
+    public T get(int index) {
+        if (isEmpty() || index > size - 1) {
+            return null;
+        } else {
+            return items[(nextFirst + index) % (items.length - 1)];
+        }
+
     }
 
     private void resize(int capacity) {
@@ -104,18 +120,27 @@ public class ArrayDeque<T> {
 
     public static void main(String[] args) {
         ArrayDeque<Integer> ad = new ArrayDeque<Integer>();
+        ad.printDeque();
+        ad.get(4);
         int i;
         for (i = 50; i >= 0; i--) {
             ad.addFirst(i);
         }
+        ad.printDeque();
         for (i = 51; i <= 100; i++) {
             ad.addLast(i);
         }
+        ad.printDeque();
         for (i = 0; i <= 25; i++) {
             ad.removeFirst();
         }
+        ad.printDeque();
         for (i = 26; i <= 100; i++) {
             ad.removeLast();
+            if (i == 72) {
+                ad.printDeque();
+                System.out.println(ad.get(5));
+            }
         }
     }
 }
