@@ -67,7 +67,7 @@ public class ArrayDeque<T> {
      */
     private void resize(int capacity) {
         T[] a = (T []) new Object[capacity];
-        int i = nextFirst + 1;
+        int i = first;
         int j = 0;
         while (j < size) {
             a[j] = items[i % items.length];
@@ -141,6 +141,10 @@ public class ArrayDeque<T> {
         if (nextFirst == items.length) {
             nextFirst = 0;
         }
+        first++;
+        if (first == items.length) {
+            first = 0;
+        }
         T item = items[nextFirst];
         items[nextFirst] = null;
         size--;
@@ -185,5 +189,6 @@ public class ArrayDeque<T> {
         ad.removeLast();
         ad.removeFirst();
         ad.get(0); // should be 5, but is null
+        System.out.println(ad.get(0));
     }
 }
