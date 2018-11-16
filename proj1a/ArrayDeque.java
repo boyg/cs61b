@@ -168,27 +168,4 @@ public class ArrayDeque<T> {
         checkForResize();
         return item;
     }
-
-    public static void main(String[] args) {
-        ArrayDeque<Integer> ad = new ArrayDeque<Integer>();
-        ad.addFirst(0);
-        ad.removeFirst();
-        ad.addLast(2);
-        ad.removeFirst();
-        ad.addLast(4);
-        ad.addFirst(5);
-        ad.removeLast();
-        ad.get(0);
-        ad.get(0);
-        ad.addFirst(9);
-        ad.get(0);
-        ad.addLast(11);
-        ad.get(2);
-        ad.addFirst(13);
-        ad.removeFirst();
-        ad.removeLast();
-        ad.removeFirst();
-        ad.get(0); // should be 5, but is null
-        System.out.println(ad.get(0));
-    }
 }
