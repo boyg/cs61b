@@ -1,5 +1,6 @@
 /** A double-ended queue implemented using an array.
- * @author Steve Farra */
+ *  @author Steve Farra */
+
 public class ArrayDeque<T> {
     /** Array holding the data. */
     private T[] items;
@@ -31,7 +32,7 @@ public class ArrayDeque<T> {
     }
 
     /** Prints the items in the deque from first to
-     * last, separated by a space.
+     *  last, separated by a space.
      */
     public void printDeque() {
         if (isEmpty()) {
@@ -90,7 +91,7 @@ public class ArrayDeque<T> {
     }
 
     /** A utility method for checking whether the items
-     * array needs to be sized up or down. */
+     *  array needs to be sized up or down. */
     private void checkForResize() {
         if (size == items.length) {
             resize(items.length * 2);
@@ -132,7 +133,7 @@ public class ArrayDeque<T> {
     }
 
     /** Removes and returns the item at the front of the
-     * deque. If no such item exists, returns null. */
+     *  deque. If no such item exists, returns null. */
     public T removeFirst() {
         if (isEmpty()) {
             return null;
@@ -153,7 +154,7 @@ public class ArrayDeque<T> {
     }
 
     /** Removes and returns the item at the back of the
-     * deque. If no such item exists, returns null. */
+     *  deque. If no such item exists, returns null. */
     public T removeLast() {
         if (isEmpty()) {
             return null;

@@ -1,5 +1,6 @@
 /** A double-ended queue implemented using a linked list of nodes.
  * @author Steve Farra */
+
 public class LinkedListDeque<T> {
     /** Node class for holding the data. */
     private class Node {
@@ -22,7 +23,7 @@ public class LinkedListDeque<T> {
     }
 
     /** A node used to assist in the construction and maintenance
-     * of the deque.
+     *  of the deque.
      */
     private Node sentinel;
     /** The number of items currently in the deque. */
@@ -77,7 +78,7 @@ public class LinkedListDeque<T> {
     }
 
     /** Prints the items in the deque from first to
-     * last, separated by a space.
+     *  last, separated by a space.
      */
     public void printDeque() {
         if (isEmpty()) {
@@ -92,7 +93,7 @@ public class LinkedListDeque<T> {
     }
 
     /** Removes and returns the item at the front of the
-     * deque. If no such item exists, returns null.
+     *  deque. If no such item exists, returns null.
      */
     public T removeFirst() {
         if (isEmpty()) {
@@ -112,7 +113,7 @@ public class LinkedListDeque<T> {
     }
 
     /** Removes and returns the item at the back of the
-     * deque. If no such item exists, returns null.
+     *  deque. If no such item exists, returns null.
      */
     public T removeLast() {
         if (isEmpty()) {
@@ -151,7 +152,7 @@ public class LinkedListDeque<T> {
     }
 
     /** Utility method for performing recursion for getRecursive.
-     * @param p a pointer to the node on the current recursive layer.
+     *  @param p a pointer to the node on the current recursive layer.
      *  @param index the index on the current recursive layer.
      *  @return the item at the specified index.
      */
