@@ -2,7 +2,7 @@
 
 A Deque (short for double-ended queue) is a sequence of containers with dynamic sizes that can be expanded or 
 contracted on both ends (either its front or its back). Linked list and array implementations of the deque are
-included in this folder.
+included.
 
 ## The Deque API
 
