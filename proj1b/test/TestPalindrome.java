@@ -37,4 +37,11 @@ public class TestPalindrome {
         assertEquals(false, palindrome.isPalindrome("horse"));
         assertEquals(false, palindrome.isPalindrome("aaaaab"));
     }
+
+    @Test
+    public void testOffByOnePalindromes() {
+        CharacterComparator cc = new OffByOne();
+        assertEquals(true, palindrome.isPalindrome("flake", cc));
+    }
+
 }
