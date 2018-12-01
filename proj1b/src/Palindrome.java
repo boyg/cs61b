@@ -10,7 +10,7 @@ public class Palindrome {
     }
 
     private boolean isPalindrome(Deque d) {
-        if (d.isEmpty()) {
+        if (d.isEmpty() || d.size() == 1) {
             return true;
         } else if (d.removeFirst() != d.removeLast()) {
             return false;
