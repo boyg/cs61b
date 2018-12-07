@@ -1,8 +1,8 @@
-public class SLList {
-    public static class IntNode {
-        public int item;
+public class SLList<Item> implements List61B<Item> {
+    public class IntNode {
+        public Item item;
         public IntNode next;
-        public IntNode(int i, IntNode n) {
+        public IntNode(Item i, IntNode n) {
             item = i;
             next = n;
         }
@@ -12,25 +12,26 @@ public class SLList {
     private int size;
 
     public SLList() {
-        sentinel = new IntNode(-1, null);
+        sentinel = new IntNode(null, null);
         size = 0;
     }
 
-    public SLList(int x) {
+    public SLList(Item x) {
         sentinel.next = new IntNode(x, null);
         size = 1;
     }
 
-    public void addFirst(int x) {
+    public void addFirst(Item x) {
         sentinel.next = new IntNode(x, sentinel.next);
         size += 1;
     }
 
-    public int getFirst() {
+    public Item getFirst() {
         return sentinel.next.item;
     }
 
-    public void addLast(int x) {
+    @Override
+    public void addLast(Item x) {
         IntNode p = sentinel;
 
         while (p.next != null) {
@@ -40,6 +41,7 @@ public class SLList {
         size += 1;
     }
 
+    @Override
     public int size() {
         return size;
     }

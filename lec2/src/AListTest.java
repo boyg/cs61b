@@ -8,13 +8,13 @@ import static org.junit.Assert.*;
 public class AListTest {
     @Test
     public void testEmptySize() {
-        AList L = new AList();
+        AList L = new AList<Integer>();
         assertEquals(0, L.size());
     }
 
     @Test
     public void testAddAndSize() {
-        AList L = new AList();
+        AList L = new AList<Integer>();
         L.addLast(99);
         L.addLast(99);
         assertEquals(2, L.size());
@@ -23,7 +23,7 @@ public class AListTest {
     
     @Test
     public void testAddAndGetLast() {
-        AList L = new AList();
+        AList L = new AList<Integer>();
         L.addLast(99);
         assertEquals(99, L.getLast());        
         L.addLast(36);
@@ -33,7 +33,7 @@ public class AListTest {
     
     @Test
     public void testGet() {
-        AList L = new AList();
+        AList L = new AList<Integer>();
         L.addLast(99);
         assertEquals(99, L.get(0));        
         L.addLast(36);
@@ -44,7 +44,7 @@ public class AListTest {
 
     @Test
     public void testRemove() {
-        AList L = new AList();
+        AList L = new AList<Integer>();
         L.addLast(99);
         assertEquals(99, L.get(0));        
         L.addLast(36);
@@ -59,7 +59,7 @@ public class AListTest {
     /** Tests insertion of a large number of items.*/
     @Test
     public void testMegaInsert() {
-        AList L = new AList();
+        AList L = new AList<Integer>();
         int N = 1000000;
         for (int i = 0; i < N; i += 1) {
             L.addLast(i);
