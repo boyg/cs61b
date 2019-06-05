@@ -4,7 +4,7 @@ A Deque (short for double-ended queue) is a sequence of containers with dynamic 
 contracted on both ends (either its front or its back). Linked list and array implementations of the deque are
 included.
 
-## The Deque API
+## API
 
 `LinkedListDeque()`: Creates an empty linked list deque.
 
