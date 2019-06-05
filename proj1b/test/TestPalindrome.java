@@ -23,7 +23,7 @@ public class TestPalindrome {
 
     @Test
     public void testSingleChar() {
-        assertEquals(true, palindrome.isPalindrome(""));
+        assertEquals(true, palindrome.isPalindrome("a"));
     }
 
     @Test
