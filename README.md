@@ -28,8 +28,8 @@ included.
 If no such item exists, returns null.
 
 ## Application
-The palindrome folder contains a palindromeFinder class (which identifies words that read the same backwards as forwards) implemented using a deque.
+The `palindrome` folder contains a `palindromeFinder` class (which identifies words that read the same backwards as forwards) implemented using a deque.
 
 ## Credits
-The LinkedListDequeTest.java test file and autograder provided by Berkeley's data structures course — CS61B — helped
+The `LinkedListDequeTest.java` test file and autograder provided by Berkeley's data structures course — CS61B — helped
 validate the deque implementations. The rest of the code was written independently by me.
