@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d807076-87b0-4db5-bec5-a1b43b2d0ebd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ec1/ec1/Problem1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec1/ec1/Problem2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec1/ec1/Problem3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec1/ec1/hints.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1/synthesizer/TestArrayRingBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1/synthesizer/TestGuitarString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/hw2/InteractivePercolationVisualizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/hw2/Percolation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/hw2/PercolationFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/hw2/PercolationStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/hw2/PercolationVisualizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/greeting57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/heart25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input1-no.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input10-no.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input2-no.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input8-dups.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input8-no.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/input8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/jerry47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/michael61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/sedgewick60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/snake1001.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/snake101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/snake13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/snake501.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/wayne98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/inputFiles/wayne98b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/ComplexOomage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/HashTableDrawingUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/HashTableVisualizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/Hint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/Oomage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/OomageTestUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/SimpleOomage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/TestComplexOomage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/TestJankyOomage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/TestNiceSpreadOomage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/hw3/hash/TestSimpleOomage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/hw4/puzzle/AlphabetEasyPuzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/hw4/puzzle/AlphabetEasyPuzzleSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/hw4/puzzle/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/hw4/puzzle/CommonBugDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/hw4/puzzle/EightPuzzleSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/hw4/puzzle/TestBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/hw4/puzzle/TestSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/hw4/puzzle/Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/hw4/puzzle/WordPuzzleSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/hw4/puzzle/WorldState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle00.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle2x2-00.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle2x2-01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle2x2-02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle2x2-03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle2x2-04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle2x2-05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle2x2-06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-00.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle3x3-31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-00.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle4x4-50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/puzzle50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/word_puzzles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/input/words10000.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/PrintEnergy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/PrintSeams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/SCUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/SanityCheckTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/SeamCarverVisualizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/SeamRemover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/ShowEnergy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/ShowSeams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/10x10.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/10x12.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/12x10.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/1x1.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/1x8.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/3x4.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/3x7.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/4x6.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/5x6.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/6x5.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/7x10.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/7x3.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/8x1.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/diagonals.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5/images/stripes.printseams.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw6/Boggle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw6/exampleBoard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw6/exampleBoard2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw6/smallBoard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw6/smallBoard2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw6/trivial_words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw6/words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/BitSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/ObjectReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/ObjectWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/ObjectWritingAndReadingDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/TestBinaryTrie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/notEnglish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/signalalarm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/tas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7/watermelonsugar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/HelloNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/LeapYear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/magic_word.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab10/ArrayHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab10/ExtrinsicPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/AStarDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/BreadthFirstDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/CyclesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/DepthFirstDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/Maze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/MazeAStarPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/MazeBreadthFirstPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/MazeCycles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/MazeDepthFirstPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/MazeExplorer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/TrivialMazeExplorer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/TrivialMazeExplorerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab11/lab11/graphs/maze.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab12/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab12/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab13/CountingSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab13/CountingSortTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab13/RadixSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14/DownloadSound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14/PlayMajorChord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14/SineWaveAnimation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14/SineWaveGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14lib/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14lib/GeneratorAudioAnimator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14lib/GeneratorAudioVisualizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14lib/GeneratorDrawer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14lib/GeneratorPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab14/lab14lib/MultiGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/creatures/Plip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/creatures/TestPlip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/Creature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/Empty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/Grid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/HugLife.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/HugLifeAnimator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/HugLifeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/Impassible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/Occupant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/Out.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/SampleCreature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/StdDraw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab15/huglife/TestHugLife.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/DebugPractice/DebugExercise1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/DebugPractice/DebugExercise2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/DebugPractice/DebugExercise3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Intlist/IntList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Intlist/IntListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2setup/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2setup/DogTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Arithmetic/Arithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Arithmetic/ArithmeticTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Flik/Flik.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Flik/HorribleSteve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/IntList/IntListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/magic_word.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/self_reflection.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/lab9/ArrayMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/lab9/BSTMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/lab9/Map61B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/lab9/MyHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/lab9/ULLMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/lab9tester/TestArrayMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/lab9tester/TestBSTMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/lab9tester/TestMyHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lec2/src/AList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lec2/src/AListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lec2/src/IntList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lec2/src/List61B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lec2/src/SLList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-sp18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/StdAudio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/StdDraw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/TestCalcDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/TestCalcForceExertedBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/TestCalcForceExertedByXY.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/TestCalcNetForceExertedByXY.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/TestPlanetConstructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/TestReadPlanets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/TestReadRadius.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/TestUpdate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/3body.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/8star-rotation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/antimatter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/armageddon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/atom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/awesome.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/binary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/binaryStars.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/bowling.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/chaosblossom.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/dance10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/entropy-universe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/fourellipses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/galaxy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/hypnosis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/illusion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/its-a-trap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/kaleidoscope.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/kevin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/massive-squirrel-battle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/planets-elliptical.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/planets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/planetsparty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/pluto.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/quad-stars.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/renegade.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/sbh2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/sbh3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/soap-opera.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/spiral.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/suninterference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/twin-binaries.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/uniform100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/uniform3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/data/uniform8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/examples/BasicInDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/examples/BasicInDemo_input_file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/examples/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/examples/InDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/examples/StdDraw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/examples/StdDrawDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/examples/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/examples/StdRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/examples/national_salt_production.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1a/ArrayDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1a/LinkedListDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1a/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b/src/ArrayDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b/src/CharacterComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b/src/Deque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b/src/OffByN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b/src/OffByOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b/src/Palindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b/src/PalindromeFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b/test/TestOffByN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b/test/TestOffByOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1b/test/TestPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1gold/ArrayDequeSolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1gold/AssertEqualsStringDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1gold/StudentArrayDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1gold/StudentArrayDequeLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/Core/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/Core/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/Core/RandomUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/SaveDemo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/SaveDemo/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/SaveDemo/World.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/TileEngine/TERenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/TileEngine/TETile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/TileEngine/Tileset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/lab5/BoringWorldDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/lab5/HexWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/lab5/RandomWorldDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/lab5/project2prep.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/lab6/MemoryGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj2/byog/lab6/MemoryGameSolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/directions_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/path_params.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/path_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/raster_params.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/raster_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/main/java/GraphBuildingHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/main/java/GraphDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/main/java/GraphDBLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/main/java/MapServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/main/java/Rasterer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/main/java/Router.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/main/java/example/CSCourseDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/main/java/example/CSCourseDBHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/test/java/TestDirections.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/test/java/TestGraphBuilding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/test/java/TestGraphBuildingTiny.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/test/java/TestRasterer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/test/java/TestRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj3/src/test/java/TestRouterTiny.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1159" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="1336" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cs61b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs61b" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestPalindrome">
+    <configuration name="PalindromeFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PalindromeFinder" />
+      <module name="cs61b" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOffByN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cs61b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOffByN" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOffByOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cs61b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOffByOne" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cs61b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPalindrome" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestPalindrome" />
+        <item itemvalue="JUnit.TestOffByOne" />
+        <item itemvalue="JUnit.TestOffByN" />
+        <item itemvalue="Application.PalindromeFinder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d807076-87b0-4db5-bec5-a1b43b2d0ebd" name="Default Changelist" comment="" />
+      <created>1559752638769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559752638769</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1159" y="23" width="1400" height="1336" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Style Checker" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cs61b</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
